@@ -1,0 +1,72 @@
+body,html {
+	background-image: url(waw.jpg);
+	height: auto;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin: 0;
+ 
+}
+
+.bg-image {
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+.bg-text {
+  margin-top : 50px;
+  color: black;
+  position: center;
+  background-color:#dfe6e9;
+  font-size: 50px;
+  font-family: 'Coustard';
+
+
+}
+
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+
+
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+ 
+}
+
+.navbar a:hover {
+  background-color: white;
+  border-radius: 10%;
+  text-decoration-line: none;
+}
+h1{
+	font-weight: bold;
+	font-size: 30px
+	color: black;
+	padding: 20px;
+	width: 100%;
+	
+}
+.container {
+	background: transparent;
+	color: white;
+	text-align: center;
+	padding: 10px;	
+	margin: 0px;
+
+}

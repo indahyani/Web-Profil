@@ -1,0 +1,63 @@
+#sidenav a {
+  position: absolute;
+  left: -66px;
+  transition: 0.3s;
+  padding: 12px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 1px 10px 10px 0px;
+  margin: 20px 0px 0px 0px;
+  display: block;
+}
+
+#sidenav a:hover {
+  left: 0px;
+}
+
+#about {
+  top: 20px;
+  background-color: #1B9CFC
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+
+#contact {
+  top: 140px;
+  background-color: #1B9CFC
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+
+}
+
+
+
+.bg-image {
+ 
+  background-image: url("waw.jpg");
+  height: 100%; 
+  
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  font-size: 50px;
+  margin: auto;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
